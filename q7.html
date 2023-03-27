@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+  </head>
+  <body>
+
+    <form>
+        <fieldset>
+            <legend>personal details</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" ><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" ><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" ><br>
+            <p>Gender
+            <input type="radio" id="male" name="male" >
+            <label for="male">Male</label>
+            <input type="radio" id="Female" name="Female" >
+            <label for="Female">Female</label><br></p>
+            <br>
+          </fieldset>
+
+          <fieldset>
+            <legend>Magazines</legend>
+
+            <input type="checkbox" id="mag1" name="mag1" >
+             <label for="mag1"> stavenger</label><br>
+             <input type="checkbox" id="mag2" name="mag2" >
+             <label for="mag2"> Teknisk</label><br>
+             <input type="checkbox" id="mag3" name="mag3" >
+             <label for="mag3"> Se og</label><br>
+             <input type="checkbox" id="mag4" name="mag4" >
+             <label for="mag4"> famelien</label><br>
+             <br>
+          </fieldset>
+          <fieldset>
+            <legend>subscription</legend>
+
+            <label for="time">Period:</label>
+            <select id="time" name="time">
+              <option value="time">6months</option>
+              </select>
+              <br>
+          </fieldset>
+          <input type="submit" value="subscribe">
+
+    </form>
+  </body>
+</html>
